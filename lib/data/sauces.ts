@@ -8,6 +8,7 @@ export const sauces: Sauce[] = [
     heatLevel: 0,
     flavor: "Tangy & creamy",
     origin: "Belgium",
+    image: "/images/sauces/andalouse.png",
   },
   {
     id: "samurai",
@@ -16,6 +17,7 @@ export const sauces: Sauce[] = [
     heatLevel: 2,
     flavor: "Spicy & bold",
     origin: "Belgium",
+    image: "/images/sauces/samurai.png",
   },
   {
     id: "truffle-mayo",
@@ -24,6 +26,7 @@ export const sauces: Sauce[] = [
     heatLevel: 0,
     flavor: "Earthy & rich",
     isSignature: true,
+    image: "/images/sauces/truffle-mayo.png",
   },
   {
     id: "garlic-aioli",
@@ -31,6 +34,7 @@ export const sauces: Sauce[] = [
     description: "Roasted garlic, fresh lemon, cold-pressed olive oil. The crowd's favorite.",
     heatLevel: 0,
     flavor: "Savory & creamy",
+    image: "/images/sauces/garlic-aioli.png",
   },
   {
     id: "parmesan-cream",
@@ -39,6 +43,7 @@ export const sauces: Sauce[] = [
     heatLevel: 0,
     flavor: "Umami & creamy",
     isSignature: true,
+    image: "/images/sauces/parmesan-cream.png",
   },
   {
     id: "cheese-sauce",
@@ -46,6 +51,7 @@ export const sauces: Sauce[] = [
     description: "Blend of three aged cheddars, smooth and pourable. Non-negotiable.",
     heatLevel: 0,
     flavor: "Sharp & rich",
+    image: "/images/sauces/cheese-sauce.png",
   },
   {
     id: "chipotle-mayo",
@@ -53,6 +59,7 @@ export const sauces: Sauce[] = [
     description: "Smoked chipotle peppers and mayo. Smoky heat you'll want on everything.",
     heatLevel: 2,
     flavor: "Smoky & spicy",
+    image: "/images/sauces/chipotle-mayo.png",
   },
   {
     id: "bbq-smoke",
@@ -60,6 +67,7 @@ export const sauces: Sauce[] = [
     description: "Slow-cooked tomato, molasses, hickory smoke. Deep and dark and good.",
     heatLevel: 1,
     flavor: "Sweet & smoky",
+    image: "/images/sauces/bbq-smoke.png",
   },
   {
     id: "volcano-sauce",
@@ -68,6 +76,7 @@ export const sauces: Sauce[] = [
     heatLevel: 3,
     flavor: "Fiery & complex",
     isSignature: true,
+    image: "/images/sauces/volcano-sauce.png",
   },
   {
     id: "honey-mustard",
@@ -75,6 +84,7 @@ export const sauces: Sauce[] = [
     description: "Raw Bali honey, whole grain Dijon mustard. Golden and glorious.",
     heatLevel: 0,
     flavor: "Sweet & tangy",
+    image: "/images/sauces/honey-mustard.png",
   },
   {
     id: "sambal-mayo",
@@ -84,6 +94,7 @@ export const sauces: Sauce[] = [
     flavor: "Spicy & fragrant",
     origin: "Indonesia",
     isSignature: true,
+    image: "/images/sauces/sambal-mayo.png",
   },
   {
     id: "gochujang-mayo",
@@ -92,15 +103,17 @@ export const sauces: Sauce[] = [
     heatLevel: 1,
     flavor: "Fermented & spicy",
     origin: "Korea",
+    image: "/images/sauces/gochujang-mayo.png",
   },
   {
-    id: "balinese-chili",
-    name: "Balinese Chili",
+    id: "balinese-sambal-matah-mayo",
+    name: "Balinese Sambal Matah Mayo",
     description: "Fresh bird's eye chili, shallots, lime, Balinese sea salt. The island on your fry.",
     heatLevel: 3,
     flavor: "Bright & fiery",
     origin: "Bali",
     isSignature: true,
+    image: "/images/sauces/balinese-sambal-matah-mayo.png",
   },
   {
     id: "sunset-aioli",
@@ -110,6 +123,7 @@ export const sauces: Sauce[] = [
     flavor: "Floral & bright",
     origin: "Fries Story Original",
     isSignature: true,
+    image: "/images/sauces/sunset-aioli.png",
   },
   {
     id: "kecap-butter",
@@ -119,6 +133,7 @@ export const sauces: Sauce[] = [
     flavor: "Sweet & nutty",
     origin: "Fries Story Original",
     isSignature: true,
+    image: "/images/sauces/kecap-butter.png",
   },
 ];
 

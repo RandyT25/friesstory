@@ -38,7 +38,7 @@ export const reviews: Review[] = [
     author: "Priya M.",
     location: "Bangalore, India",
     rating: 5,
-    text: "As someone obsessed with food, I've had loaded fries all over the world. Fries Story is doing something different — the sauces are house-made and genuinely complex. The Balinese Chili sauce alone is worth the trip. Please open in India.",
+    text: "As someone obsessed with food, I've had loaded fries all over the world. Fries Story is doing something different — the sauces are house-made and genuinely complex. The Balinese Sambal Matah Mayo sauce alone is worth the trip. Please open in India.",
     date: "2025-03-20",
   },
   {

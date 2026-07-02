@@ -2,6 +2,7 @@
 
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { Menu, X } from "lucide-react";
+import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
@@ -27,8 +28,17 @@ export function MobileMenu() {
       <SheetContent side="right" className="bg-charcoal border-gold/20 w-80">
         <div className="flex flex-col gap-8 pt-8">
           <div className="flex items-center justify-between">
-            <span className="font-display text-2xl font-bold text-gold tracking-tight">
-              FRIES STORY
+            <span className="flex items-center gap-2">
+              <Image
+                src="/logo/icon-gold.png"
+                alt=""
+                width={32}
+                height={32}
+                className="h-7 w-7 object-contain"
+              />
+              <span className="font-display text-2xl font-bold text-gold tracking-tight">
+                FRIES STORY
+              </span>
             </span>
             <button onClick={() => setOpen(false)} className="text-cream/60 hover:text-cream">
               <X className="w-5 h-5" />

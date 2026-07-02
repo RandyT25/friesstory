@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
@@ -35,12 +36,21 @@ export function Navbar() {
     >
       <div className="max-w-7xl mx-auto px-4 flex items-center justify-between">
         {/* Logo */}
-        <Link href="/" className="flex flex-col leading-none group">
-          <span className="font-display text-xl md:text-2xl font-bold text-gold tracking-tight group-hover:text-gold-light transition-colors">
-            FRIES STORY
-          </span>
-          <span className="text-[9px] font-mono tracking-[0.25em] text-cream/40 uppercase">
-            Loaded Belgian Fries
+        <Link href="/" className="flex items-center gap-2 group">
+          <Image
+            src="/logo/icon-gold.png"
+            alt=""
+            width={36}
+            height={36}
+            className="h-8 w-8 md:h-9 md:w-9 object-contain"
+          />
+          <span className="flex flex-col leading-none">
+            <span className="font-display text-xl md:text-2xl font-bold text-gold tracking-tight group-hover:text-gold-light transition-colors">
+              FRIES STORY
+            </span>
+            <span className="text-[9px] font-mono tracking-[0.25em] text-cream/40 uppercase">
+              Loaded Belgian Fries
+            </span>
           </span>
         </Link>
 

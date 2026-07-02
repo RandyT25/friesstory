@@ -10,6 +10,7 @@ export const menuItems: MenuItem[] = [
     category: "classic",
     tags: ["bestseller"],
     featured: false,
+    image: "/images/menu/classic-belgian.png",
   },
   {
     id: "sea-salt",
@@ -19,6 +20,7 @@ export const menuItems: MenuItem[] = [
     category: "classic",
     tags: [],
     featured: false,
+    image: "/images/menu/sea-salt.png",
   },
   {
     id: "garlic-butter",
@@ -37,6 +39,7 @@ export const menuItems: MenuItem[] = [
     category: "classic",
     tags: ["vegetarian"],
     featured: false,
+    image: "/images/menu/parmesan.png",
   },
 
   // SIGNATURE LOADED FRIES
@@ -50,7 +53,7 @@ export const menuItems: MenuItem[] = [
     tags: ["bestseller", "signature", "spicy"],
     featured: true,
     heatLevel: 2,
-    image: "https://images.unsplash.com/photo-1640719028782-8230f1bdc44b?w=800&auto=format&fit=crop&q=80",
+    image: "/images/menu/rendang-loaded.png",
   },
   {
     id: "truffle-parmesan",
@@ -62,7 +65,7 @@ export const menuItems: MenuItem[] = [
     tags: ["signature", "vegetarian"],
     featured: true,
     heatLevel: 0,
-    image: "https://images.unsplash.com/photo-1573080496219-3b2b14d8d3a3?w=800&auto=format&fit=crop&q=80",
+    image: "/images/menu/truffle-parmesan.png",
   },
   {
     id: "volcano",
@@ -74,7 +77,7 @@ export const menuItems: MenuItem[] = [
     tags: ["bestseller", "signature", "spicy", "new"],
     featured: true,
     heatLevel: 3,
-    image: "https://images.unsplash.com/photo-1630438993990-77aff4b9fc47?w=800&auto=format&fit=crop&q=80",
+    image: "/images/menu/volcano.png",
   },
   {
     id: "sambal-matah-chicken",
@@ -86,7 +89,7 @@ export const menuItems: MenuItem[] = [
     tags: ["signature", "spicy"],
     featured: true,
     heatLevel: 2,
-    image: "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&auto=format&fit=crop&q=80",
+    image: "/images/menu/sambal-matah-chicken.png",
   },
   {
     id: "korean-bbq",
@@ -98,7 +101,7 @@ export const menuItems: MenuItem[] = [
     tags: ["signature", "spicy", "new"],
     featured: true,
     heatLevel: 1,
-    image: "https://images.unsplash.com/photo-1569050467447-ce54b3bbc37d?w=800&auto=format&fit=crop&q=80",
+    image: "/images/menu/korean-bbq.png",
   },
   {
     id: "beef-brisket",
@@ -110,6 +113,7 @@ export const menuItems: MenuItem[] = [
     tags: ["signature"],
     featured: false,
     heatLevel: 0,
+    image: "/images/menu/beef-brisket.png",
   },
   {
     id: "pulled-beef",
@@ -121,6 +125,7 @@ export const menuItems: MenuItem[] = [
     tags: [],
     featured: false,
     heatLevel: 0,
+    image: "/images/menu/pulled-beef.png",
   },
   {
     id: "mexican-fiesta",
@@ -132,6 +137,7 @@ export const menuItems: MenuItem[] = [
     tags: ["spicy"],
     featured: false,
     heatLevel: 1,
+    image: "/images/menu/mexican-fiesta.png",
   },
 
   // SHARING BOXES
@@ -143,6 +149,7 @@ export const menuItems: MenuItem[] = [
     category: "sharing-boxes",
     tags: ["bestseller"],
     featured: false,
+    image: "/images/menu/feast-box.png",
   },
   {
     id: "family-box",
@@ -152,6 +159,7 @@ export const menuItems: MenuItem[] = [
     category: "sharing-boxes",
     tags: [],
     featured: false,
+    image: "/images/menu/family-box.png",
   },
   {
     id: "party-box",
@@ -161,6 +169,7 @@ export const menuItems: MenuItem[] = [
     category: "sharing-boxes",
     tags: [],
     featured: false,
+    image: "/images/menu/party-box.png",
   },
   {
     id: "mixed-signature-box",
@@ -170,6 +179,7 @@ export const menuItems: MenuItem[] = [
     category: "sharing-boxes",
     tags: ["signature"],
     featured: false,
+    image: "/images/menu/mixed-signature-box.png",
   },
 
   // SIDES
@@ -190,6 +200,7 @@ export const menuItems: MenuItem[] = [
     category: "sides",
     tags: ["vegetarian"],
     featured: false,
+    image: "/images/menu/mozz-sticks.png",
   },
   {
     id: "onion-rings",
@@ -208,6 +219,7 @@ export const menuItems: MenuItem[] = [
     category: "sides",
     tags: ["spicy"],
     featured: false,
+    image: "/images/menu/chicken-wings.png",
   },
   {
     id: "loaded-nuggets",
@@ -217,6 +229,7 @@ export const menuItems: MenuItem[] = [
     category: "sides",
     tags: [],
     featured: false,
+    image: "/images/menu/loaded-nuggets.png",
   },
 
   // DRINKS
@@ -228,6 +241,7 @@ export const menuItems: MenuItem[] = [
     category: "drinks",
     tags: [],
     featured: false,
+    image: "/images/menu/craft-lemonade.png",
   },
   {
     id: "iced-tea",
@@ -237,6 +251,7 @@ export const menuItems: MenuItem[] = [
     category: "drinks",
     tags: [],
     featured: false,
+    image: "/images/menu/iced-tea.png",
   },
   {
     id: "milkshake",

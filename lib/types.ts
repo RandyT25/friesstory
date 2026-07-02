@@ -30,6 +30,7 @@ export interface Sauce {
   flavor: string;
   isSignature?: boolean;
   origin?: string;
+  image?: string;
 }
 
 export interface Location {

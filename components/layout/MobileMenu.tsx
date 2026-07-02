@@ -28,18 +28,13 @@ export function MobileMenu() {
       <SheetContent side="right" className="bg-charcoal border-gold/20 w-80">
         <div className="flex flex-col gap-8 pt-8">
           <div className="flex items-center justify-between">
-            <span className="flex items-center gap-2">
-              <Image
-                src="/logo/icon-gold.png"
-                alt=""
-                width={32}
-                height={32}
-                className="h-7 w-7 object-contain"
-              />
-              <span className="font-display text-2xl font-bold text-gold tracking-tight">
-                FRIES STORY
-              </span>
-            </span>
+            <Image
+              src="/logo/landscape-gold.png"
+              alt="Fries Story"
+              width={1045}
+              height={616}
+              className="h-9 w-auto object-contain"
+            />
             <button onClick={() => setOpen(false)} className="text-cream/60 hover:text-cream">
               <X className="w-5 h-5" />
             </button>

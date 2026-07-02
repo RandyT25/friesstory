@@ -42,20 +42,14 @@ export function Footer() {
       <div className="max-w-7xl mx-auto px-4 py-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
         {/* Brand */}
         <div className="lg:col-span-2">
-          <Link href="/" className="flex items-center gap-2.5 mb-4">
+          <Link href="/" className="flex items-center mb-4">
             <Image
-              src="/logo/icon-gold.png"
-              alt=""
-              width={40}
-              height={40}
-              className="h-9 w-9 object-contain"
+              src="/logo/landscape-gold.png"
+              alt="Fries Story"
+              width={1045}
+              height={616}
+              className="h-16 w-auto object-contain"
             />
-            <span>
-              <span className="font-display text-3xl font-bold text-gold block">FRIES STORY</span>
-              <p className="text-cream/40 text-xs font-mono tracking-widest uppercase mt-1">
-                Loaded Belgian Fries
-              </p>
-            </span>
           </Link>
           <p className="text-cream/60 text-sm leading-relaxed max-w-sm mb-6">
             Born in Bali. Inspired by Belgium. Built for the world.

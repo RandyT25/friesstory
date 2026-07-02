@@ -256,6 +256,7 @@ export const menuItems: MenuItem[] = [
     category: "desserts",
     tags: ["new"],
     featured: false,
+    image: "/images/menu/mini-waffle-bites.png",
   },
   {
     id: "brownie-bites",
@@ -265,6 +266,7 @@ export const menuItems: MenuItem[] = [
     category: "desserts",
     tags: ["bestseller"],
     featured: false,
+    image: "/images/menu/brownies-bites.png",
   },
 ];
 
